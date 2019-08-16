@@ -41,10 +41,10 @@ class Sample extends React.Component {
                         .then(data => {
                             for (var i = 0; i < data.length; i++) {
                                 let cells = []
-                                cells.push(<td key={`cell${i}-1`} style={tdStyle}>{data[i].dateFormatted}</td>)
+                                cells.push(<td key={`cell${i}-0`} style={tdStyle}>{data[i].dateFormatted}</td>)
                                 cells.push(<td key={`cell${i}-1`} style={tdStyle}>{data[i].temperatureC}</td>)
-                                cells.push(<td key={`cell${i}-1`} style={tdStyle}>{data[i].summary}</td>)
-                                cells.push(<td key={`cell${i}-1`} style={tdStyle}>{data[i].temperatureF}</td>)
+                                cells.push(<td key={`cell${i}-2`} style={tdStyle}>{data[i].summary}</td>)
+                                cells.push(<td key={`cell${i}-3`} style={tdStyle}>{data[i].temperatureF}</td>)
                                 
                                 rows.push(<tr key={`row${i}`}>{cells}</tr>)
                             }

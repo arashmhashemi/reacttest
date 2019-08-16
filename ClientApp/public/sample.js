@@ -64,7 +64,7 @@ var Sample = function (_React$Component) {
                                     var cells = [];
                                     cells.push(React.createElement(
                                         'td',
-                                        { key: 'cell' + i + '-1', style: tdStyle },
+                                        { key: 'cell' + i + '-0', style: tdStyle },
                                         data[i].dateFormatted
                                     ));
                                     cells.push(React.createElement(
@@ -74,12 +74,12 @@ var Sample = function (_React$Component) {
                                     ));
                                     cells.push(React.createElement(
                                         'td',
-                                        { key: 'cell' + i + '-1', style: tdStyle },
+                                        { key: 'cell' + i + '-2', style: tdStyle },
                                         data[i].summary
                                     ));
                                     cells.push(React.createElement(
                                         'td',
-                                        { key: 'cell' + i + '-1', style: tdStyle },
+                                        { key: 'cell' + i + '-3', style: tdStyle },
                                         data[i].temperatureF
                                     ));
 
